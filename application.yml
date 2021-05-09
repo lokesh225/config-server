@@ -1,0 +1,8 @@
+eureka:
+  client:
+    resgister-with-server : true
+    fetch-registry : true
+    service-url :
+      default-zone : http://localhost:8761/eureka/
+  instance:
+    host-name : localhost
